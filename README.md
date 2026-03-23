@@ -1,43 +1,75 @@
-# Portfolio Analysis of Five Market Leaders
+# 📊 Portfolio Analysis of Five Market Leaders Using Python
 
-This project analyses a five-asset portfolio using historical Yahoo Finance data for:
+## 🚀 Project Overview
+This project explores portfolio construction and optimization using Python by analyzing a combination of equities and ETFs: NVDA, JPM, XOM, SPY, and GLD.
 
-- NVDA
-- GLD
-- JPM
-- XOM
-- SPY
+The objective is to understand how asset selection and diversification impact returns and risk.
 
-## What the notebook covers
-- data collection with `yfinance`
-- daily log returns
-- annualised return and volatility
-- correlation and covariance analysis
-- Monte Carlo simulation of 10,000 random portfolios
-- portfolio optimisation:
-  - minimum variance portfolio
-  - maximum Sharpe ratio portfolio
-- risk metrics:
-  - 95% historical 1-day VaR
-  - maximum drawdown
-  - beta versus SPY
+---
 
-## Key improvement over the earlier version
-The notebook fixes a major return-scaling issue in the Monte Carlo simulation.  
-Annual portfolio returns are **not** multiplied by 252 twice.
+## 📈 What This Project Covers
 
-## Tools used
-- Python
-- pandas
-- numpy
-- matplotlib
-- scipy
-- yfinance
+- Data collection using financial APIs  
+- Log return calculations  
+- Annualized return and volatility estimation  
+- Correlation and covariance analysis  
+- Monte Carlo portfolio simulation  
+- Portfolio optimization (Minimum Volatility & Maximum Sharpe Ratio)  
+- Risk metrics including Value at Risk (VaR) and Maximum Drawdown  
+- Visualization of portfolio performance and efficient frontier  
 
-## Notes
-- `GLD` and `SPY` are ETFs, so this is best described as a **multi-asset portfolio analysis** rather than a pure stock-only study.
-- A 2% annual risk-free rate is used for Sharpe ratio calculations.
-- Results depend on the selected historical sample period and should not be treated as investment advice.
+---
 
-## Files
-- `Portfolio Analysis of Five Market Leaders Using Python.ipynb` — cleaned and improved analysis notebook
+## 📊 Key Visualizations
+
+- Efficient Frontier (Monte Carlo simulation with optimal portfolios)  
+- Correlation Heatmap  
+- Cumulative Returns of Assets  
+
+---
+
+## 🧠 Key Insights
+
+- **Risk vs Return Trade-off:** Higher returns are associated with higher volatility  
+- **Diversification Benefit:** Low correlation assets (e.g., gold) reduce portfolio risk  
+- **Optimization Impact:** Efficient portfolios improve risk-adjusted returns compared to equal-weight portfolios  
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- yFinance  
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository  
+2. Open the notebook in Jupyter or Google Colab  
+3. Run all cells to reproduce the analysis and visualizations  
+
+---
+
+## 📌 Project Motivation
+
+This project was developed to strengthen understanding of financial data analysis, portfolio optimization techniques, and the role of data analytics in investment decision-making.
+
+---
+
+## 🔮 Future Improvements
+
+- Incorporate a risk-free rate into Sharpe ratio calculations  
+- Expand asset universe for better diversification  
+- Compare optimization techniques (e.g., constrained optimization)  
+- Backtest portfolio strategies over different time periods  
+
+---
+
+## 🤝 Feedback
+
+Feedback and suggestions are always welcome!
