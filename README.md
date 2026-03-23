@@ -1,13 +1,13 @@
-# 📊 Portfolio Analysis of Five Market Leaders Using Python
+# Portfolio Analysis of Five Market Leaders Using Python
 
-## 🚀 Project Overview
+## Project Overview
 This project explores portfolio construction and optimization using Python by analyzing a combination of equities and ETFs: NVDA, JPM, XOM, SPY, and GLD.
 
 The objective is to understand how asset selection and diversification impact returns and risk.
 
 ---
 
-## 📈 What This Project Covers
+## What This Project Covers
 
 - Data collection using financial APIs  
 - Log return calculations  
@@ -20,7 +20,7 @@ The objective is to understand how asset selection and diversification impact re
 
 ---
 
-## 📊 Key Visualizations
+## Key Visualizations
 
 - Efficient Frontier (Monte Carlo simulation with optimal portfolios)  
 - Correlation Heatmap  
@@ -28,7 +28,7 @@ The objective is to understand how asset selection and diversification impact re
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 - **Risk vs Return Trade-off:** Higher returns are associated with higher volatility  
 - **Diversification Benefit:** Low correlation assets (e.g., gold) reduce portfolio risk  
@@ -36,7 +36,7 @@ The objective is to understand how asset selection and diversification impact re
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Python  
 - Pandas  
@@ -47,7 +47,7 @@ The objective is to understand how asset selection and diversification impact re
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository  
 2. Open the notebook in Jupyter or Google Colab  
@@ -55,13 +55,13 @@ The objective is to understand how asset selection and diversification impact re
 
 ---
 
-## 📌 Project Motivation
+## Project Motivation
 
 This project was developed to strengthen understanding of financial data analysis, portfolio optimization techniques, and the role of data analytics in investment decision-making.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Incorporate a risk-free rate into Sharpe ratio calculations  
 - Expand asset universe for better diversification  
