@@ -70,6 +70,6 @@ This project was developed to strengthen understanding of financial data analysi
 
 ---
 
-## 🤝 Feedback
+## Feedback
 
 Feedback and suggestions are always welcome!
