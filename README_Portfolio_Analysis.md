@@ -40,4 +40,4 @@ Annual portfolio returns are **not** multiplied by 252 twice.
 - Results depend on the selected historical sample period and should not be treated as investment advice.
 
 ## Files
-- `Fixed_Portfolio_Analysis_GitHub_LinkedIn.ipynb` — cleaned and improved analysis notebook
+- `Portfolio Analysis of Five Market Leaders Using Python.ipynb` — cleaned and improved analysis notebook
